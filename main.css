@@ -180,7 +180,7 @@ select > option{
   -webkit-appearance:none;
 }
 
-/* @media(max-width: 800px) {
+@media(max-width: 481px) {
   .card-details-container,
   .payment-container {
     flex-direction: column;
@@ -188,20 +188,32 @@ select > option{
   .card-details-container {
     margin-bottom: 1em;
   }
+  
+  .actions-wrap {
+    flex-direction: column;
+  }
+
   select,
   input {
     width: 100%;
   }
+
   .exp-year-wrapper,
   .exp-month-wrapper {
     width: 100%;
   }
+  
   .exp-year-wrapper {
     margin-left: 1em;
   }
   
   .form_buttons-wrapp {
     justify-content: center;
+    margin: 1em 0;
+  }
+
+  .payment-info {
+    width: 100%;
   }
 
   .input-card-number {
@@ -227,7 +239,7 @@ select > option{
   .card-number-container {
     margin-bottom: 1em;;
   }
-} */
+}
 
   /* Edge */
   /* ::-webkit-input-placeholder { 
