@@ -146,7 +146,7 @@ input[type="submit"]:active {
 .form_buttons-wrapp {
   display: flex;
   align-items: flex-end;
-  margin: 0 1em;
+  margin-right: 3em;
 }
 
 .payment-info {
