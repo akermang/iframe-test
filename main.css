@@ -180,7 +180,7 @@ select > option{
   -webkit-appearance:none;
 }
 
-@media(max-width: 481px) {
+@media(max-width: 600px) {
   .card-details-container,
   .payment-container {
     flex-direction: column;
@@ -202,7 +202,7 @@ select > option{
   .exp-month-wrapper {
     width: 100%;
   }
-  
+
   .exp-year-wrapper {
     margin-left: 1em;
   }
