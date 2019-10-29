@@ -16,6 +16,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: NovemberHebrew;
+  background-color: #fff;
 }
 
 .payment-container {
@@ -170,7 +171,7 @@ select {
 }
 
 select > option{
-  background-color: white;
+  background-color: #fff;
   font-family: inherit;
   -webkit-appearance:none;
 }
