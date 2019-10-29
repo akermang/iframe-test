@@ -139,10 +139,14 @@ input[type="submit"]:active {
   color: #1a1e33;
 }
 
+.actions-wrap {
+  display: flex;
+}
+
 .form_buttons-wrapp {
   display: flex;
   align-items: flex-end;
-  padding-bottom: 3px;
+  margin: 0 1em;
 }
 
 .payment-info {
