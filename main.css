@@ -64,6 +64,7 @@ body {
   color: #202a31;
   resize: none;
   margin-left: 1em;
+  -webkit-appearance:none;
 }
 
 /* .exp-month,
@@ -93,6 +94,7 @@ select {
   -webkit-transition: all 0.25s cubic-bezier(0.755,0.125,0.180,0.910);
   transition: all 0.25s cubic-bezier(0.755,0.125,0.180,0.910);
   outline: none;
+  -webkit-appearance:none;
 }
 
 input[type="submit"] {
@@ -161,13 +163,19 @@ input[type="submit"]:active {
 /* ::placeholder {
   color: #98a8b3;
 } */
-
-option[value="01"] {
-  background-color: red;
-  color: blue;
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
-@media(max-width: 800px) {
+select > option{
+  background-color: white;
+  font-family: inherit;
+  -webkit-appearance:none;
+}
+
+/* @media(max-width: 800px) {
   .card-details-container,
   .payment-container {
     flex-direction: column;
@@ -207,11 +215,14 @@ option[value="01"] {
   .exp-month,
   .exp-year,
   .input-card-number {
-    /* background-color: #4dd0e140; */
     border-bottom: 2px solid #00d1cf;
     font-size: 26px;
-    /* color: #ffffff; */
   }
+
+  .card-number-container {
+    margin-bottom: 1em;;
+  }
+} */
 
   /* Edge */
   /* ::-webkit-input-placeholder { 
@@ -230,8 +241,3 @@ option[value="01"] {
   /* .input-label-wrapp {
     color: #ffffff;
   } */
-
-  .card-number-container {
-    margin-bottom: 1em;;
-  }
-}
