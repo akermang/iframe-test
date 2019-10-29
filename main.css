@@ -180,7 +180,7 @@ select > option{
   -webkit-appearance:none;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 6590px) {
   .card-details-container,
   .payment-container {
     flex-direction: column;
