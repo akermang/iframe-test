@@ -70,6 +70,9 @@ body {
   margin-left: 1em;
   -webkit-appearance:none;
   width: 90%;
+  background-position: left center;
+  /* background-image: url(); */
+  background-position: 10px 24px;
 }
 .mui-select>select:focus,
 .mui-select:focus>select {
