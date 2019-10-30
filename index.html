@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html>
-	
 	<head>
 		<title></title>
-		<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!-- load MUI -->
-		<link href="https://cdn.muicss.com/mui-0.10.0/css/mui.min.css" rel="stylesheet" type="text/css" />
+		<link
+			href="https://cdn.muicss.com/mui-0.10.0/css/mui.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
 		<script src="https://cdn.muicss.com/mui-0.10.0/js/mui.min.js"></script>
-		<script>
-		//   window.addEventListener('load', function() {
-		// 	// add button dynamically
-		// 	var buttonEl = document.createElement('button');
-		// 	buttonEl.className = 'mui-btn mui-btn--primary mui-btn--raised';
-		// 	buttonEl.innerHTML = 'My dynamic button';
-		// 	document.body.appendChild(buttonEl);
-		//   });
-		</script>
+		<!-- local css -->
 		<link href="./main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			function submit_form() {
@@ -33,7 +27,8 @@
 		<!--  DISPLAY TRANSACTION INFORMATION -->
 		<div id="main_frame" class="payment-container">
 			<div id="main">
-				<form class="mui-form"
+				<form
+					class="mui-form"
 					id="creditForm"
 					onsubmit="return validateForm();"
 					method="POST"
@@ -43,7 +38,7 @@
 						<div class="card-details-container">
 							<div id="CardNumberContainer" class="card-number-container">
 								<div class="input-label-wrapp">
-									<label class="input-payment-label" for="cardNumber" 
+									<label class="input-payment-label" for="cardNumber"
 										>מספר כרטיס אשראי</label
 									>
 								</div>
