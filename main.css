@@ -107,6 +107,7 @@ select {
   transition: all 0.25s cubic-bezier(0.755,0.125,0.180,0.910);
   outline: none;
   -webkit-appearance:none;
+  border-bottom: solid 1px #83b9f2;
 }
 
 input[type="submit"] {
@@ -189,6 +190,13 @@ select > option{
   background-color: #fff;
   font-family: inherit;
   -webkit-appearance:none;
+}
+
+.card-number-container input:hover {
+  background-color: rgba(187,220,255,0.15);
+  border-bottom: solid 1px #83b9f2;
+  -webkit-transition: all 0.25s cubic-bezier(0.755,0.125,0.180,0.910);
+  transition: all 0.25s cubic-bezier(0.755,0.125,0.180,0.910);
 }
 
 @media(max-width: 559px) {
