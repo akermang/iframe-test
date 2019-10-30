@@ -21,10 +21,9 @@
 		<link href="./main.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 			function submit_form() {
-				window.top.location.href = "/change-password"; 
-				// if (validateForm()) {
-				// 	document.getElementById("creditForm").submit();
-				// }
+				if (validateForm()) {
+					document.getElementById("creditForm").submit();
+				}
 			}
 		</script>
 	</head>
@@ -33,7 +32,7 @@
 		<!--  DISPLAY TRANSACTION INFORMATION -->
 		<div id="main_frame" class="payment-container">
 			<div id="main">
-				<form
+				<form class="mui-form"
 					id="creditForm"
 					onsubmit="return validateForm();"
 					method="POST"
@@ -74,7 +73,7 @@
 								</div>
 
 								<div class="exp-container">
-									<div class="exp-year-wrapper">
+									<div class="exp-year-wrapper mui-select">
 										<select
 											id="expYear"
 											name="expYear"
@@ -99,7 +98,7 @@
 										</select>
 									</div>
 
-									<div class="exp-month-wrapper">
+									<div class="exp-month-wrapper mui-select">
 										<select
 											id="expMonth"
 											name="expMonth"
