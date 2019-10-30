@@ -71,7 +71,7 @@ body {
   -webkit-appearance:none;
   width: 90%;
 }
-
+.mui-select>select:focus,
 .mui-select:focus>select {
   height: 50px;
   margin-bottom: 0px;
