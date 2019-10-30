@@ -47,6 +47,11 @@ body {
 .mui-select {
   padding-top: 0px;
 }
+
+.mui-select>select {
+  background-image: url('./assets/iconfinder_ic_expand_more_48px_352330.svg');
+}
+
 .exp-month,
 .exp-year,
 .mui-select>select,
@@ -70,9 +75,8 @@ body {
   margin-left: 1em;
   -webkit-appearance:none;
   width: 90%;
-  background-position: left center;
-  /* background-image: url(); */
-  background-position: 10px 24px;
+  background-position: 4px 16px;
+  background-size: 22px;
 }
 .mui-select>select:focus,
 .mui-select:focus>select {
