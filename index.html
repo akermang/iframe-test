@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
 	<head>
 		<title></title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- load MUI -->
+		<link href="https://cdn.muicss.com/mui-0.10.0/css/mui.min.css" rel="stylesheet" type="text/css" />
+		<script src="https://cdn.muicss.com/mui-0.10.0/js/mui.min.js"></script>
+		<script>
+		//   window.addEventListener('load', function() {
+		// 	// add button dynamically
+		// 	var buttonEl = document.createElement('button');
+		// 	buttonEl.className = 'mui-btn mui-btn--primary mui-btn--raised';
+		// 	buttonEl.innerHTML = 'My dynamic button';
+		// 	document.body.appendChild(buttonEl);
+		//   });
+		</script>
 		<link href="./main.css" rel="stylesheet" type="text/css" />
-
 		<script type="text/javascript">
 			function submit_form() {
-				if (validateForm()) {
-					document.getElementById("creditForm").submit();
-				}
+				window.top.location.href = "/change-password"; 
+				// if (validateForm()) {
+				// 	document.getElementById("creditForm").submit();
+				// }
 			}
 		</script>
 	</head>
 
-	<body onload="onLoad();">
+	<body>
 		<!--  DISPLAY TRANSACTION INFORMATION -->
 		<div id="main_frame" class="payment-container">
 			<div id="main">
